@@ -1,0 +1,28 @@
+body {
+    font: 14px calibri, sans-serif;    
+}
+
+.game {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.game .row .col.empty span {
+    opacity: 0;
+}
+
+.game .row .col {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    padding: 15px 0;
+    background: #fff;    
+    border: 1px solid #666;
+    color: #666;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.game .row .col.empty {
+    background: #666;
+}
